@@ -1,0 +1,30 @@
+{
+  "name": "jest-practice",
+  "version": "1.0.0",
+  "description": "project to learn Jest framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "javascript",
+    "js",
+    "test",
+    "unit",
+    "testing"
+  ],
+  "author": "Sergei Kardashev <kardashev.job@yandex.ru>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyKardashev/jest-practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SergeyKardashev/jest-practice/issues"
+  },
+  "homepage": "https://github.com/SergeyKardashev/jest-practice#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
