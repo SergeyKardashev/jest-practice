@@ -13,6 +13,7 @@ test('Sum should return value correctly comparing to other', () => {
 });
 
 test('Sum should sum 2 float values correctly', () => {
-    expect(sum(0.1, 0.2)).toBeCloseTo(0.3)
+    expect(sum(0.3, 0.4)).toBe(0.7) // for some reason this line does not end up with error
     expect(sum(0.1, 0.2)).toBe(0.3)
+    expect(sum(0.1, 0.2)).toBeCloseTo(0.3)
 });
