@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": false
+  },
+  "typeAcquisition": {
+    "include": [
+      "jest"
+    ]
+  },
+  "exclude": ["node_modules"]
+}

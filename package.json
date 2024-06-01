@@ -26,5 +26,8 @@
   "homepage": "https://github.com/SergeyKardashev/jest-practice#readme",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
   }
 }
