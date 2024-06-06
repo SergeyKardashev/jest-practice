@@ -34,3 +34,5 @@ Test checks if **Ajax** group of functions:
 Test checks if **jest.fn** mock function:
 - has been called at least once;
 - has been called specific number of times;
+
+Test function that make async axios request
