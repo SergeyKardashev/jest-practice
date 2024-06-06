@@ -27,4 +27,16 @@ describe('Map function', () => {
         expect(fn.mock.results[3].value).toBe(25); 
     });
 
+    test('should return 100 when called first, then 200, then always 42', () => {
+        fn
+            .mockReturnValueOnce(100)
+            .mockReturnValueOnce(200)
+            .mockReturnValue(42);
+        
+        expect(fn()).toBe(100); 
+        expect(fn()).toBe(200); 
+        expect(fn()).toBe(42); 
+        expect(fn()).toBe(42); 
+    });
+
 })
