@@ -13,7 +13,12 @@ describe('Map function', () => {
         map(array, fn);
         // expect(fn).toBeCalled(); // toBeCalled is deprecated. Use toHaveBeenCalled
         expect(fn).toHaveBeenCalled();
-        expect(fn).toHaveBeenCalledTimes(4);
+    });
+
+    test('should call callback 4 times', () => {
+        map(array, fn);
+        expect(fn).toHaveBeenCalledTimes(4); // option 1
+        expect(fn.mock.calls.length).toBe(4); // option 2
     });
 
 })
