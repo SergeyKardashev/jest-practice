@@ -36,3 +36,5 @@ Test checks if **jest.fn** mock function:
 - has been called specific number of times;
 
 Test function that make async axios request
+
+I will continue learning the topic with [Doca](https://doka-guide.vercel.app/tools/testing-with-jest/)
